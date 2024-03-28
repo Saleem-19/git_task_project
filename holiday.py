@@ -2,7 +2,7 @@
 flights_price = {"london": 1000, "new york": 1400, "paris": 895, "dubai": 995}
 hotel_cost_per_night = {"london": 150, "new york": 230, "paris": 160, "dubai": 300}
 daily_rental_cost = {"london": 40, "new york": 50, "paris": 45, "dubai": 55}
-
+#the following three lines gathers the users input 
 city_flight = input("Which city are you flying to? ").lower()
 num_nights = int(input("How many nights will you be staying at the hotel? "))
 rental_days = int(input("How many days will you be hiring a car for? "))
