@@ -7,7 +7,7 @@ city_flight = input("Which city are you flying to? ").lower()
 num_nights = int(input("How many nights will you be staying at the hotel? "))
 rental_days = int(input("How many days will you be hiring a car for? "))
 
-
+# plane cost checks if city_flight is in the flights_price dictionary and returns the cost of the flight if it is, otherwise it returns 0
 def plane_cost(): 
     if city_flight in flights_price:    
         print(f"The price of your flight is {flights_price[city_flight]}")
